@@ -1,0 +1,3 @@
+./venv3/bin/python3.10 setup.py install
+
+./venv3/bin/python3.10 -m ddns ${access_key_id} ${access_key_secret} ${recode_current_ip_file} ${pushplush_token}
